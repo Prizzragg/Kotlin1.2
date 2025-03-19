@@ -1,8 +1,8 @@
 fun main() {
-    val likes = 47
-    if (likes == 1 || likes % 10 == 1) {
-        println("Понравилось $likes человеку")
-    } else {
+    val likes = 1111
+    if (likes % 10 !== 1 || likes % 100 == 11) {
         println("Понравилось $likes людям")
+    } else {
+        println("Понравилось $likes человеку")
     }
 }
